@@ -13,7 +13,7 @@ count=0
 
 for((i=0; i<${#arr[@]}; i++))
 do
-    if ((i>=25))
+    if ((arr[i]>=25))
     then
         continue
     fi

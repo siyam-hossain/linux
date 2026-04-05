@@ -10,7 +10,6 @@ do
     fi
 done
 
-
 # with range
 
 for i in {1..10}
@@ -18,7 +17,6 @@ do
     echo -n "$i "
 done
 echo ""
-
 
 # --------(break / continue)--------------
 for k in {5..15}
@@ -35,5 +33,4 @@ do
         echo -n "$k "
     fi
 done
-
 echo ""

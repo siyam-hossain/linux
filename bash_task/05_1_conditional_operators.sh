@@ -9,15 +9,6 @@ then
     echo "a = b"
 fi
 
-
-# (()) use for arithmetic operation
-# inside we can't use -eq
-
-# if ((a -eq b))
-# then
-#     echo "a = b"
-# fi
-
 echo "================================="
 if [[ $a -eq $b ]]
 then
@@ -29,3 +20,12 @@ then
 else
     echo "a < b"
 fi
+
+
+# (()) use for arithmetic operation
+# inside we can't use -eq
+
+# if ((a -eq b))
+# then
+#     echo "a = b"
+# fi
